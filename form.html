@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>自律表单</title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<body background="https://hellorfimg.zcool.cn/provider_image/large/2237727024.jpg">
+<div>
+  <br>
+  <h1 style="text-align: center;">日常表单</h1>
+  <br>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">日期</th>
+      <th scope="col">锻炼</th>
+      <th scope="col">学习</th>
+      <th scope="col">饮食</th>
+      <th scope="col">完成情况</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>周一</td>
+    </tr>
+
+    <tr>
+      <th scope="row">2</th>
+      <td>周二</td>
+    </tr>
+
+    <tr>
+      <th scope="row">3</th>
+      <td>周三</td>
+    </tr>
+
+    <tr>
+      <th scope="row">4</th>
+      <td>周四</td>
+    </tr>
+
+    <tr>
+      <th scope="row">5</th>
+      <td>周五</td>
+    </tr>
+
+    <tr>
+      <th scope="row">6</th>
+      <td>周六</td>
+    </tr>
+
+    <tr>
+      <th scope="row">7</th>
+      <td>周日</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="container">
+    <div class="row justify-content-end">
+
+      <div class="col-6">
+  <div class="bg-light mb-3" style="max-width: 20rem;">
+    <div class="card-header">提示</div>
+    <div class="card-body">
+      <h5 class="card-title">表单小贴士</h5>
+      <p class="card-text">点击右方折叠表单查看有关饮食、锻炼、学习的小贴士。</p>
+    </div>
+  </div>
+  </div>
+
+    <div class="col-6">
+<div class="accordion"id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          关于饮食
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        早餐占30%，午餐占40%，晚餐占30%。三分靠练七分靠吃，合理调整饮食结构，高油高糖的少吃，吃饭七八分饱，切忌暴饮暴食。平时多喝水，多喝牛奶。
+        <br>
+        Breakfast 30%, lunch 40%, dinner 30%. Three points by practicing seven points by eating, reasonable adjustment of the diet structure, high oil and high sugar to eat less, eat seven or eight points full, avoid overeating. Usually drink more water, drink more milk.
+
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        关于锻炼
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+    刚开始锻炼的时候体重上身是很正常的事儿，不要慌张。运动需要坚持，记得运动前后都要拉伸。<br>
+     It's normal to get on with your upper body when you start exercising. Do n' t panic. Exercise needs persistence, remember to stretch before and after exercise.
+
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        关于学习
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+    自律和进步改变的不需要太多，先从核心习惯做起，比如早起。学习的时候营造一个良好的环境，远离手机或者合理利用手机。<br>
+    Self-discipline and progress don't need much change, start with core habits, such as getting up early. When learning to create a good environment, away from mobile phones or rational use of mobile phones.
+
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</body>

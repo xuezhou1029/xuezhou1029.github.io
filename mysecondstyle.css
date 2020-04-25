@@ -15,7 +15,7 @@
 
 .about_tit {
     position: absolute;
-    top: 280px;
+    top: 150px;
     left: 0;
     right: 0;
     font-size: 28px;
@@ -30,7 +30,7 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    right: 300px;
+    right: 150px;
     top: 50px;
     margin: auto;
 }
@@ -84,7 +84,6 @@
 }
 
 .ribbon span:before {
-    content: "";
     position: absolute;
     top: 3em;
     left: 0;
@@ -93,7 +92,6 @@
 }
 
 .ribbon span:after {
-    content: "";
     position: absolute;
     top: 3em;
     right: 0;
@@ -129,6 +127,21 @@
     animation: 50s wordsLoop linear infinite normal;
 }
 
+
+.videos {
+    display: flex;
+    margin-top: 60px;
+    padding-bottom: 80px;
+}
+
+.videos span {
+  width: 400px;
+     margin-right: 100px;
+     margin-left: 100px;
+        color: #000;
+    animation: 200s wordsLoop linear infinite normal;
+}
+
 @keyframes wordsLoop {
     0% {
         transform: translateY(100px);
@@ -139,16 +152,21 @@
         -webkit-transform: translateY(-100%);
     }
 }
-
-.videos {
-    display: flex;
-    margin-top: 60px;
-    padding-bottom: 80px;
+footer{
+background-color:	#A9A9A9;
+color: #d5d5d5;
+padding-top: 2rem;
+}
+hr.light{
+  border-top:1px solid #d5d5d5;
+  width: 75%;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
 }
 
-.videos span {
-    width: 400px;
-    margin-right: 100px;
-    margin-left: 300px;
-    color: #FFD204
+hr.light-100{
+  border-top:1px solid #d5d5d5;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
 }
