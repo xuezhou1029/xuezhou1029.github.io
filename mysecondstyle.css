@@ -127,19 +127,18 @@
     animation: 50s wordsLoop linear infinite normal;
 }
 
-
 .videos {
     display: flex;
     margin-top: 60px;
     padding-bottom: 80px;
 }
 
-.videos span {
-  width: 400px;
-     margin-right: 100px;
-     margin-left: 100px;
-        color: #000;
-    animation: 200s wordsLoop linear infinite normal;
+.videos_tit {
+  width: 600px;
+  line-height: 36px;
+  font-size: 18px;
+  margin-right:100px;
+  margin-bottom:50px;
 }
 
 @keyframes wordsLoop {
